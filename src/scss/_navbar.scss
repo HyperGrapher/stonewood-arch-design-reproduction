@@ -1,0 +1,57 @@
+
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top:0;
+	background: rgb(255, 255, 255);
+	z-index: 99;
+
+	.logo {
+
+		float: left;
+		padding: 45px 20px 45px 40px;
+		background: rgb(255, 255, 255);
+
+		img {
+			width: 239.5px;
+			height: 49.5px;
+
+		}
+
+	}
+}
+
+header nav {
+	margin-right: 50px;
+	float: right;
+	margin-top: 55px;
+
+	ul {
+		list-style: none;
+
+
+		li {
+			margin-left: 25px;
+			display: inline-block;
+		}
+
+		li a {
+			font-family: 'Montserrat';
+			font-weight: 400;
+			display: block;
+			transition: all .34s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+			&:hover {
+				color: black;
+			}
+
+
+		}
+	}
+
+
+}

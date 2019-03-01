@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- PREVENT pinterest extension to pickup images -->
+    <meta name="pinterest" content="nopin" />
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <a href="/" class="logo" a>
+                <img src="./stonewoodconstruction.com.au/logo.png" alt="" >
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="main">
+
+            <section id="projects" class="table">
+
+                <figure class="left">
+                    <img src="./stonewoodconstruction.com.au/projects.jpg" alt=""  >
+                </figure>
+
+
+                <div class="right">
+                    <ul id="right-rack-list" >
+
+                        <div class="rack top">
+                            <li>
+                                <div class="detail"></div>
+                                <!-- <div class="cta"><a href="/"> Cross Street, Mosman </a></div> -->
+                                <img class="top" src="./stonewoodconstruction.com.au/crossStHero.jpg" alt="" >
+                            </li>
+                        </div>
+
+                        <div class="rack bottom">
+                            <li>
+                                <div class="detail"></div>
+                                <!-- <div class="cta"><a href="/"> Cross Street, Mosman </a></div> -->
+                                <img class="top" src="./stonewoodconstruction.com.au/paddingtonHero.jpg" alt="" > 
+                            </li>
+
+                        </div>
+                    </ul>
+
+                </div>
+
+  
+
+
+            </section>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script type="text/javascript">
+		(function() {
+			var APP = {};
+			APP.mq = null;
+			APP.ajaxUrl = 'http://www.stonewoodconstruction.com.au/wp-admin/admin-ajax.php';
+			APP.templateUrl = 'http://www.stonewoodconstruction.com.au/wp-content/themes/stonewood';
+			APP.isRetina = (window.devicePixelRatio > 1 || (window.matchMedia && window.matchMedia('(-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)').matches));
+			APP.projectStoreKey = 'pref';
+			APP.isSurfaceDevice = (function() {
+				var bool = false;
+				try {
+					var msGesture = window.navigator && window.navigator.msPointerEnabled && window.MSGesture;
+					if (('ontouchstart' in window) || msGesture || window.DocumentTouch && document instanceof DocumentTouch) {
+						bool = true;
+						document.getElementsByTagName('html')[0].className += ' ua-surface';
+					}
+				} catch(e) {}
+				return bool;
+			})();
+			window.__APP = APP;
+		})();
+		</script>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
