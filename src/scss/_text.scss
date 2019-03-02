@@ -1,0 +1,25 @@
+.text {
+   
+    height: 100%;
+    position: relative;
+    background: rgb(243, 243, 243);
+
+    .text-cont {
+        position: absolute;
+        top: 50%;
+        height: 100%;
+        width: 100%;
+        padding: 100px 90px;
+        transform: translate(0%, -50%);
+        margin: auto;
+
+        article {
+
+            p {
+                font-size: 1.2em;
+                line-height: 1.5em;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

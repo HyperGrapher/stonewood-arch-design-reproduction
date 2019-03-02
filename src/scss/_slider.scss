@@ -1,0 +1,266 @@
+$yell: #ffea46;
+
+
+.project-image-container {
+    width: 100%;
+    height: 633px;
+    top: 0;
+    right: 0;
+
+    .img-inner-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+}
+
+.title-container {
+    height: 100%;
+    width: 100%;
+    // padding: 5px 30%;
+
+    h3 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        margin: 0 auto;
+        line-height: 51px;
+        font-weight: 200;
+        font-size: 2em;
+        color: white;
+        padding: 5px 50px;
+        letter-spacing: 4px;
+
+
+        &:after {
+            position: absolute;
+            content: '';
+            height: 2px;
+            bottom: -3px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 6em;
+            background: $yell;;
+
+      }
+
+    }
+}
+
+
+
+
+.detail{
+
+  
+    
+.btn-cont {
+    // position: absolute;
+    text-align: center;
+}
+.btn-cont .btn {
+    position: absolute;
+    top: 50%;
+    // right: 25%;
+    // position: relative;
+    padding: 20px 70px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(-50%, -50%)
+  }
+  .btn-cont .btn:hover {
+    border: none;
+  }
+  .btn-cont .btn:hover .line-1 {
+    -webkit-animation: move1 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+            animation: move1 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+  }
+  .btn-cont .btn:hover .line-2 {
+    -webkit-animation: move2 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+            animation: move2 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+  }
+  .btn-cont .btn:hover .line-3 {
+    -webkit-animation: move3 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+            animation: move3 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+  }
+  .btn-cont .btn:hover .line-4 {
+    -webkit-animation: move4 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+            animation: move4 1500ms infinite cubic-bezier(.05,.84,.62,.95);
+  }
+  .btn-cont .line-1 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-cont .line-2 {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    left: 0;
+    top: 0;
+  }
+  .btn-cont .line-3 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    background-color: white;
+    right: 0;
+    top: 0;
+  }
+  .btn-cont .line-4 {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @-webkit-keyframes move1 {
+    0% {
+      height: 100%;
+      bottom: 0;
+    }
+    54% {
+      height: 0;
+      bottom: 100%;
+    }
+    55% {
+      height: 0;
+      bottom: 0;
+    }
+    100% {
+      height: 100%;
+      bottom: 0;
+    }
+  }
+  
+  @keyframes move1 {
+    0% {
+      height: 100%;
+      bottom: 0;
+    }
+    54% {
+      height: 0;
+      bottom: 100%;
+    }
+    55% {
+      height: 0;
+      bottom: 0;
+    }
+    100% {
+      height: 100%;
+      bottom: 0;
+    }
+  }
+  @-webkit-keyframes move2 {
+    0% {
+      width: 0;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  @keyframes move2 {
+    0% {
+      width: 0;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  @-webkit-keyframes move3 {
+    0% {
+      height: 100%;
+      top: 0;
+    }
+    54% {
+      height: 0;
+      top: 100%;
+    }
+    55% {
+      height: 0;
+      top: 0;
+    }
+    100% {
+      height: 100%;
+      top: 0;
+    }
+  }
+  @keyframes move3 {
+    0% {
+      height: 100%;
+      top: 0;
+    }
+    54% {
+      height: 0;
+      top: 100%;
+    }
+    55% {
+      height: 0;
+      top: 0;
+    }
+    100% {
+      height: 100%;
+      top: 0;
+    }
+  }
+  @-webkit-keyframes move4 {
+    0% {
+      width: 0;
+      right: 0;
+    }
+    55% {
+      width: 100%;
+      right: 0;
+    }
+    100% {
+      width: 0;
+      right: 100%;
+    }
+  }
+  @keyframes move4 {
+    0% {
+      width: 0;
+      right: 0;
+    }
+    55% {
+      width: 100%;
+      right: 0;
+    }
+    100% {
+      width: 0;
+      right: 100%;
+    }
+  }
+  
+}
